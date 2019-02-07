@@ -1,6 +1,6 @@
 '''
 This migrates the old file system, which had too many subdirectories and divisions, to a newer, cleaner one.
-'filter' is to restrict the copying to the main clients' files.
+'filter' variable restricts the copying to the main clients' files.
 '''
 
 import os, shutil, errno
